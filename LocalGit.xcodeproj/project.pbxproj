@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C68B6D3913D74F050056CCFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68B6D3813D74F040056CCFC /* Foundation.framework */; };
 		C68B6D3C13D74F050056CCFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B6D3B13D74F050056CCFC /* main.m */; };
+		C68B6D4713D750550056CCFC /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B6D4613D750550056CCFC /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,10 @@
 		C68B6D3413D74F040056CCFC /* LocalGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocalGit; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68B6D3813D74F040056CCFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C68B6D3B13D74F050056CCFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C68B6D3E13D74F050056CCFC /* LocalGit-Prefix.pch */ = {isa = PBXFileReference; path = "LocalGit-Prefix.pch"; sourceTree = "<group>"; };
+		C68B6D3E13D74F050056CCFC /* LocalGit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalGit-Prefix.pch"; sourceTree = "<group>"; };
 		C68B6D3F13D74F050056CCFC /* LocalGit.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LocalGit.1; sourceTree = "<group>"; };
+		C68B6D4513D750550056CCFC /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		C68B6D4613D750550056CCFC /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,8 @@
 		C68B6D2913D74F040056CCFC = {
 			isa = PBXGroup;
 			children = (
+				C68B6D4513D750550056CCFC /* MyClass.h */,
+				C68B6D4613D750550056CCFC /* MyClass.m */,
 				C68B6D3A13D74F050056CCFC /* LocalGit */,
 				C68B6D3713D74F040056CCFC /* Frameworks */,
 				C68B6D3513D74F040056CCFC /* Products */,
@@ -137,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68B6D3C13D74F050056CCFC /* main.m in Sources */,
+				C68B6D4713D750550056CCFC /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
