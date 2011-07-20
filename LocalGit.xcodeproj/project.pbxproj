@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68B6D3913D74F050056CCFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68B6D3813D74F040056CCFC /* Foundation.framework */; };
+		C68B6D3C13D74F050056CCFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B6D3B13D74F050056CCFC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C68B6D3213D74F040056CCFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C68B6D3413D74F040056CCFC /* LocalGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocalGit; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68B6D3813D74F040056CCFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C68B6D3B13D74F050056CCFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C68B6D3E13D74F050056CCFC /* LocalGit-Prefix.pch */ = {isa = PBXFileReference; path = "LocalGit-Prefix.pch"; sourceTree = "<group>"; };
+		C68B6D3F13D74F050056CCFC /* LocalGit.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LocalGit.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68B6D3113D74F040056CCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68B6D3913D74F050056CCFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68B6D2913D74F040056CCFC = {
+			isa = PBXGroup;
+			children = (
+				C68B6D3A13D74F050056CCFC /* LocalGit */,
+				C68B6D3713D74F040056CCFC /* Frameworks */,
+				C68B6D3513D74F040056CCFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C68B6D3513D74F040056CCFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68B6D3413D74F040056CCFC /* LocalGit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68B6D3713D74F040056CCFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68B6D3813D74F040056CCFC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C68B6D3A13D74F050056CCFC /* LocalGit */ = {
+			isa = PBXGroup;
+			children = (
+				C68B6D3B13D74F050056CCFC /* main.m */,
+				C68B6D3F13D74F050056CCFC /* LocalGit.1 */,
+				C68B6D3D13D74F050056CCFC /* Supporting Files */,
+			);
+			path = LocalGit;
+			sourceTree = "<group>";
+		};
+		C68B6D3D13D74F050056CCFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68B6D3E13D74F050056CCFC /* LocalGit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68B6D3313D74F040056CCFC /* LocalGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68B6D4213D74F050056CCFC /* Build configuration list for PBXNativeTarget "LocalGit" */;
+			buildPhases = (
+				C68B6D3013D74F040056CCFC /* Sources */,
+				C68B6D3113D74F040056CCFC /* Frameworks */,
+				C68B6D3213D74F040056CCFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalGit;
+			productName = LocalGit;
+			productReference = C68B6D3413D74F040056CCFC /* LocalGit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68B6D2B13D74F040056CCFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Techgene;
+			};
+			buildConfigurationList = C68B6D2E13D74F040056CCFC /* Build configuration list for PBXProject "LocalGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C68B6D2913D74F040056CCFC;
+			productRefGroup = C68B6D3513D74F040056CCFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68B6D3313D74F040056CCFC /* LocalGit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68B6D3013D74F040056CCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68B6D3C13D74F050056CCFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C68B6D4013D74F050056CCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C68B6D4113D74F050056CCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C68B6D4313D74F050056CCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalGit/LocalGit-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C68B6D4413D74F050056CCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalGit/LocalGit-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68B6D2E13D74F040056CCFC /* Build configuration list for PBXProject "LocalGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68B6D4013D74F050056CCFC /* Debug */,
+				C68B6D4113D74F050056CCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68B6D4213D74F050056CCFC /* Build configuration list for PBXNativeTarget "LocalGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68B6D4313D74F050056CCFC /* Debug */,
+				C68B6D4413D74F050056CCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68B6D2B13D74F040056CCFC /* Project object */;
+}

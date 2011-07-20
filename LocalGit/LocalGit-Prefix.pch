@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'LocalGit' target in the 'LocalGit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
